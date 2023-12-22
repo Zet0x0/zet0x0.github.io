@@ -1,3 +1,13 @@
+/* 
+ * We do not care about "color accessability".
+ */
+
+::-moz-selection, /* for Firefox */
+::selection {
+    background: #a0f;
+    color: #fff;
+}
+
 body {
     font-family: 'Source Code Pro', monospace;
 
